@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="Alarm.css">
+    <script src="Alarm.js"defer></script>
+
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--連接 FontAwesome 圖示-->
+    <script src="https://kit.fontawesome.com/baa35201ad.js" crossorigin="anonymous"></script>    
+
+
+</head>
+<body>
+    <div class="clock-container">
+        <div class="date-time">
+            <!-- Time -->
+            <h2 class="date" id="date"></h2>
+
+            <!-- Date -->
+            <h2 class="time" id="time"></h2>
+        </div>
+    </div>
+
+    <form class="form-container">
+        <input type="time" name="" class="alarm-time" />
+        <button type="submit" class="alarm-btn">
+            <i class='bx bxs-plus-square' ></i>
+        </button>
+    </form>
+
+    <!--Alarm List-->
+    <div class="alarmList-container">
+        <ul class="alarm-list">
+        </ul>
+
+        <!--Audio-->
+        <audio src="audio/Alarm.mp3" id="audio"></audio>
+
+    </div>
+
+</body>
+</html>
