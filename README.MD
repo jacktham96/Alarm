@@ -1,4 +1,4 @@
-# bito_interview
+# Alarm Clock README
 
 
 # Installation
